@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body, html, #stars {
+  height: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #3f4c6b;
+  background: -moz-radial-gradient(center, ellipse cover,  #3f4c6b 0%, #181b28 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #3f4c6b 0%,#181b28 100%);
+  background: radial-gradient(ellipse at center,  #3f4c6b 0%,#181b28 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#181b28',GradientType=1 );
+  position: relative;
+}
+ul{
+  list-style: none;
+}
+#sun {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  background: #f1e767;
+  box-shadow: 0 0 60px 10px red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background: -moz-radial-gradient(center, ellipse cover,  #f1e767 0%, #feb645 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #f1e767 0%,#feb645 100%);
+  background: radial-gradient(ellipse at center,  #f1e767 0%,#feb645 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 );
+}
+.planet{
+  background-color: #ABC;
+  height: 50px;
+  width: 50px;
+  display: block;
+  border-radius: 50%;
+}
+.planets {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+.planet:first-child{
+  background: url('../img/mercury.png');
+  background-size: 100% 100%;
+}
